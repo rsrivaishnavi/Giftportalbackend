@@ -19,7 +19,7 @@ import io.swagger.v3.oas.annotations.parameters.RequestBody;
 
 @RestController
 @RequestMapping("/users")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://giftportalfrontend-theta.vercel.app")
 public class UserController {
     @Autowired
     private UserRepository userRepository;
