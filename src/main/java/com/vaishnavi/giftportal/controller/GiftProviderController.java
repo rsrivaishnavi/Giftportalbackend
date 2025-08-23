@@ -19,7 +19,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/gift-providers")
-@CrossOrigin(origins = "https://giftportalfrontend-theta.vercel.app/")
+@CrossOrigin(origins = "https://giftportalfrontend-theta.vercel.app")
 public class GiftProviderController {
 
     @Autowired
